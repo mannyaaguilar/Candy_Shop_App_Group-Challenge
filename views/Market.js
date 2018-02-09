@@ -1,0 +1,5 @@
+function createMarketPage(){
+    $("body").append(
+
+    )
+}
