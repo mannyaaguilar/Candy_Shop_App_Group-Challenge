@@ -1,24 +1,88 @@
-h1{
-    color: blue;
+h1, h2, h3 {
+    margin: 0;
+}
+h2 {
+    color: saddlebrown;
+    background-color: pink;
+}
+ul, li {
+    color: saddlebrown;
+    background-color: pink;
 }
 
-h2{
-   color: black;
+p {
+  color: saddlebrown;
+    background-color: pink;
 }
 
-p{
-    color: black;
+
+.image img{
+    max-height: 100px;
+    min-height: 100px;
+}
+
+.image2 img {
+    max-height: 60px;
+    min-height: 60px;
 }
 
 body{
-    color: beige;
+    background-color: white;
+    color: saddlebrown;
+    font-family: "Comic Sans MS";
 }
 
-head{
-    color: orange;
+a{
+  text-decoration: none;
+    color: saddlebrown;
 }
 
-html{
-    color: pink;
+#container{
+    background-color: lightblue;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+#header{
+    font-family: "Comic Sans MS";
+    font-size: 36px;
+    color: saddlebrown;
+    text-align: center;
+    background-color: pink;
+    padding: 10px;
+}
+
+#content{
+    padding: 10px;
+}
+
+#nav{
+    width: 180px;
+    /*float: left;*/
+}
+
+#nav.ul{
+    list-style-type: none;
+    padding: 0;
+    color: saddlebrown;
+}
+
+#nav.selected{
+    font-weight: bold;
+    color: saddlebrown;
+}
+
+#mainContainer{
+   width: 1500px;
+    /*float: right;*/
+}
+#footer{
+    clear: both;
+    padding: 10px;
+    background-color: pink;
+    color: saddlebrown;
+    text-align: center;
+}
+
 
